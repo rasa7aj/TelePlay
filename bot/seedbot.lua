@@ -232,7 +232,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {218965807},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -696,7 +696,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 218965807
 now = os.time()
 math.randomseed(now)
 started = false
